@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/error"
+        android:icon="@drawable/ic_error_black_24dp"
+        android:menuCategory="secondary"
+        android:title="توضیحات برنامه"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Button_contact"
+        android:title="ثبت اکانت" />
+
+    <item
+        android:id="@+id/telegram"
+        android:title="کانال ما در تلگرام" />
+
+    <item android:title="تنظیمات">
+        <menu>
+
+            <item
+                android:id="@+id/flsh"
+                android:icon="@drawable/ic_error_black_24dp"
+                android:title="درباره ما" />
+            <item
+                android:id="@+id/subscribe"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="اشتراک گذاری" />
+
+        </menu>
+    </item>
+</menu>

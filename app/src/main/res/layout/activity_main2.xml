@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="koohi.koohi.Main2Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#303F9F">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="درباه ما"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/Button_gmali"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Button_contact"
+        android:layout_below="@+id/toolbar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/dirty"
+        android:drawableRight="@drawable/ic_email_black_24dp"
+        android:text="ارسال ایمل"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Button_report"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_gmali"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dirty"
+        android:drawableRight="@drawable/ic_security_black_24dp"
+        android:text="گزارش مشکلات اپلیکشن"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_report"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".40"
+            android:gravity="center"
+            android:text="ترکیب کلش رویال"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/VR_code"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".40"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
